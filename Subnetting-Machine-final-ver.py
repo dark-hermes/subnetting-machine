@@ -17,7 +17,7 @@ def loop():
                 while True:
                     try:
                         print("\n"+"="*18,"\nSUBNETTING KELAS C\n"+"="*18)
-                        octet_1 = [(input("Masukkan oktet ke-1 : "))]
+                        octet_1 = int(input("Masukkan oktet ke-1 : "))
                         octet_2 = int(input("Masukkan oktet ke-2 : "))
                         octet_3 = int(input("Masukkan oktet ke-3 : "))
                         octet_4 = int(input("Masukkan oktet ke-4 : "))
